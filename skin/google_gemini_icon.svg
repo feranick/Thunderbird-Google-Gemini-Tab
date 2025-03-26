@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   fill="none"
+   version="1.1"
+   viewBox="0 0 200 200"
+   id="svg3"
+   sodipodi:docname="google_gemini_icon.svg"
+   width="200"
+   height="200"
+   inkscape:version="1.4 (e7c3feb1, 2024-10-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="2.3841253"
+     inkscape:cx="211.39828"
+     inkscape:cy="211.608"
+     inkscape:window-width="1200"
+     inkscape:window-height="1186"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg3" />
+  <path
+     d="m 199.64893,100.2324 c -53.54858,3.23689 -96.39934,46.17918 -99.62893,99.84097 H 99.628925 C 96.398867,146.41158 53.548112,103.46929 0,100.2324 V 99.840968 C 53.548112,96.604554 96.398867,53.662263 99.628925,0 H 100.02 c 3.22959,53.662263 46.08035,96.604554 99.62893,99.840968 z"
+     fill="url(#paint0_radial_7192_57059)"
+     id="path1"
+     style="fill:url(#paint0_radial_7192_57059);stroke-width:0.472246" />
+  <defs
+     id="defs3">
+    <radialGradient
+       id="paint0_radial_7192_57059"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientTransform="matrix(201.30297,68.216578,-545.3114,1615.9914,19.813415,81.31219)"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#9168C0"
+         offset=".0671246"
+         id="stop1" />
+      <stop
+         stop-color="#5684D1"
+         offset=".342551"
+         id="stop2" />
+      <stop
+         stop-color="#1BA1E3"
+         offset=".672076"
+         id="stop3" />
+    </radialGradient>
+  </defs>
+</svg>
