@@ -1,7 +1,7 @@
 browser.spacesToolbar.addButton('GoogleGemini', {
     title: "Google Gemini",
     defaultIcons: "skin/google_gemini_icon.svg",
-    url: "https://genini.google.com/"
+    url: "https://gemini.google.com/"
 });
 
 browser.webRequest.onBeforeSendHeaders.addListener(
