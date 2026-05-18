@@ -17,3 +17,22 @@ browser.webRequest.onBeforeSendHeaders.addListener(
   { urls: ["https://gemini.google.com/*", "https://*.google.com/*"] },
   ["blocking", "requestHeaders"]
 );
+
+// Create the context menu item
+browser.menus.create({
+  id: "send-to-gemini",
+  title: "Send to Gemini: \"%s\"",
+  contexts: ["selection"]
+});
+
+// Add a listener for when the menu item is clicked
+browser.menus.onClicked.addListener((info, tab) => {
+  if (info.menuItemId === "send-to-gemini" && info.selectionText) {
+    // Encode the selected text
+    const query = encodeURIComponent(info.selectionText);
+    
+    // Open Gemini with our custom URL parameter
+    const geminiUrl = `https://gemini.google.com/app?prompt=${query}`;
+    browser.tabs.create({ url: geminiUrl });
+  }
+});
