@@ -1,5 +1,5 @@
 # Google Gemini Tab
-Unofficial Google Gemini add-on for Thunderbird, it adds a button in Spaces that opens a Google Gemini tab in Thunderbird.
+Unofficial Google Gemini add-on for Thunderbird, it adds a button in Spaces that opens a Google Gemini tab in Thunderbird. The [home page](https://addons.thunderbird.net/en-US/thunderbird/addon/google-gemini-tab/) of the extension contains the latest code.
 
 #### Installing 
 A new Google Gemini icon should appear in the Spaces Toolbar of Thunderbird. Click to open.

@@ -1,6 +1,18 @@
 {
+  "extensionName": {
+    "message": "Scheda Google Gemini",
+    "description": "Name of the extension."
+  },
   "extensionDescription": {
     "message": "Aggiunge un bottone per aprire Google Gemini in una nuova tab.",
-    "description": "Descrizione dell'estensione."
+    "description": "Description of the extension."
+  },
+  "toolbarButtonTitle": {
+    "message": "Google Gemini",
+    "description": "Hover title for the Spaces Toolbar button."
+  },
+  "contextMenuTitle": {
+    "message": "Invia a Gemini: \"%s\"",
+    "description": "Context menu text. %s is automatically replaced by the user's selected text."
   }
 }

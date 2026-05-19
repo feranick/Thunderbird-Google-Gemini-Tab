@@ -1,5 +1,5 @@
 browser.spacesToolbar.addButton('GoogleGemini', {
-    title: "Google Gemini",
+    title: browser.i18n.getMessage("toolbarButtonTitle"),
     defaultIcons: "skin/google_gemini_icon.svg",
     url: "https://gemini.google.com/"
 });
@@ -21,7 +21,7 @@ browser.webRequest.onBeforeSendHeaders.addListener(
 // Create the context menu item
 browser.menus.create({
   id: "send-to-gemini",
-  title: "Send to Gemini: \"%s\"",
+  title: browser.i18n.getMessage("contextMenuTitle"),
   contexts: ["selection"]
 });
 
